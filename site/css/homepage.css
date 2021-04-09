@@ -1,0 +1,74 @@
+html {
+    background-color: #cacc4c;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    font-family: Manjari;
+    background-color: #ffff7d;
+}
+
+h2 {
+    font-size: 2.0rem;
+}
+
+#header {
+    height: 200px;
+    width: auto;
+}
+
+#youtube-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+#links {
+    display: flex;
+    text-align: center;
+    height: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+#links .link-wrapper {
+
+    margin: auto;
+}
+
+#links a {
+    height: 50%;
+    flex-grow: 1;
+    display: flex;
+    text-decoration: none;
+    color: #76b4fe;
+    text-shadow: 0px 1px #fe65cb;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 120px;
+}
+
+.logo {
+    background-image: url(/images/2560x1440_left_text.png);
+    background-color: #ffff7d;
+
+    background-size: 33%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media only screen and (max-width: 414px) {
+    .logo { 
+        background-size: 50%; 
+        background-image: url(/images/800x800_bottom_text.png);
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) and (min-width: 414px) {
+    .logo {
+        background-size: 60%;
+    }
+  }
